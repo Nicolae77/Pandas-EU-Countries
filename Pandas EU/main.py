@@ -5,10 +5,13 @@ screen = turtle.Screen()
 screen.title("E.U State Game")
 image = "blank map.gif"
 screen.addshape(image)
+screen.setup(width=1000, height=700)
 turtle.shape(image)
 data = pandas.read_csv("eu_states.csv")
 all_countries = data.country.to_list()
+all_cities = data.cities.to_list()
 guessed_country = []
+guessed_cities = []
 while len(guessed_country) < 39:
 
     answer_country = screen.textinput(title=f"{len(guessed_country)}/39 Guess the Country",
