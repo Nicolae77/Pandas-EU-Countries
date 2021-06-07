@@ -1,40 +1,40 @@
-country,x,y
-Ireland,-366,70
-United Kingdom,-295,44
-Norway,-143,219
-Sweden,-67,179
-Finland,49,250
-Denmark,-133,97
-Estonia,79,175
-Latvia,81,133
-Lithuania,57,95
-Russia,28,77
-Belarus,117,61
-Poland,3,18
-Germany,-139,-6
-Ukraine,137,-25
-Moldova,171,-79
-Romania,95,-127
-Bulgaria,131,-210
-Greece,87,-303
-Albania,50,-264
-Macedonia,78,-245
-Yugoslavia,49,-176
-Bosnia Herzegovina,-16,-170
-Croatia,-30,-152
-Slovenia,-59,-141
-Austria,-66,-105
-Hungary,-3,-114
-Slovakia,3,-75
-Czech Republic,-68,-39
-Netherlands,-193,20
-Belgium,-216,-19
-Luxembourg,-189,-46
-Switzerland,-178,-123
-Italy,-94,-229
-France,-290,-129
-Corsica,-156,-242
+country,x,y,cities,z,a
+Ireland,-366,70,Dublin,-366,60
+United Kingdom,-295,44,London,-295,34
+Norway,-143,219,Oslo,-143,209
+Sweden,-67,179,Stockholm,-67,169
+Finland,49,250,Helsinki,49,240
+Denmark,-133,97,Copenhagen,-133,87
+Estonia,79,175,Tallinn,79,165
+Latvia,81,133,Riga,81,123
+Lithuania,57,95,Vilnius,57,85
+Russia,200,200,Moscow,200,190
+Belarus,117,61,Minsk,117,51
+Poland,3,18,Warsaw,3,8
+Germany,-139,-6,Berlin,-139,-16
+Ukraine,137,-25,Kiev,137,-35
+Moldova,171,-79,Chisinau,171,-89
+Romania,95,-127,Bucharest,95,-137
+Bulgaria,131,-210,Sofia,131,-220
+Greece,87,-303,Athens,87,-313
+Albania,50,-264,Tirana,50,-274
+Macedonia,78,-245,Skopje,78,-255
+Yugoslavia,49,-176,Belgrade,49,-186
+Bosnia Herzegovina,-16,-170,Sarajevo,-16,-180
+Croatia,-30,-152,Zagreb,-30,-162
+Slovenia,-59,-141,Ljubljana,-59,-151
+Austria,-66,-105,Vienna,-66,-115
+Hungary,-3,-114,Budapest,-3,-124
+Slovakia,3,-75,Bratislava,3,-85
+Czech Republic,-68,-39,Prague,-68,-49
+Netherlands,-193,20,Amsterdam,-193,10
+Belgium,-216,-19,Brussels,-216,-29
+Luxembourg,-189,-46,Luxemburg,-189,-56
+Switzerland,-178,-123,Bern,-178,-133
+Italy,-94,-229,Rome,-94,-239
+France,-290,-129,Paris,-290,-139
+Corsica,-156,-242,
 Sardinia,-159,-295
-Palma de Majorca,-274,-291
-Portugal,-459,-232
-Spain,-423,-277
+Palma de Majorca,-274,-291,Spain
+Portugal,-459,-232,Lisbon,-459,-242
+Spain,-423,-277,Madrid,-423,-287
