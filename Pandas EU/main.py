@@ -52,6 +52,7 @@ while len(guessed_country) < 40:
         ts.penup()
         cities_data = data[data.cities == answer_cities]
         ts.goto(int(cities_data.z), int(cities_data.a))
+        ts.pencolor("purple")
         ts.write(answer_cities)    
     
 
