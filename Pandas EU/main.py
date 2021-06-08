@@ -12,9 +12,9 @@ all_countries = data.country.to_list()
 all_cities = data.cities.to_list()
 guessed_country = []
 guessed_cities = []
-while len(guessed_country) < 39:
+while len(guessed_country) < 40:
 
-    answer_country = screen.textinput(title=f"{len(guessed_country)}/39 Guess the Country",
+    answer_country = screen.textinput(title=f"{len(guessed_country)}/40 Guess the Country",
                                       prompt="What's another Country?").title()
     if answer_country == 'Exit':
         missing_country = []
@@ -32,8 +32,8 @@ while len(guessed_country) < 39:
         t.penup()
         country_data = data[data.country == answer_country]
         t.goto(int(country_data.x), int(country_data.y))
-        t.write(answer_country)
-        answer_cities = screen.textinput(title=f"{len(guessed_cities)}/39 Guess the Capital",
+        t.write(answer_country, font=("Arial Rounded MT Bold", 10, "normal"))
+        answer_cities = screen.textinput(title=f"{len(guessed_cities)}/40 Guess the Capital",
                                      prompt="What's the capital of this Country?").title()
     if answer_cities == 'Exit':
         missing_cities = []
